@@ -1,7 +1,3 @@
-# Model View Router
+# MoVeR
 
-MVR is a spin on traditional MVP (Model-View-Presenter).
-
-As presented here, MVR is a communication pattern. As such, it does not require an external framework or library - only a perspective change. Embracing MVR entails writing your code differently, not adhering to an API.
-
-MVR requires no external dependencies.
+Model View Router (MoVeR) is a spin on [Model View Presenter](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) and [Presenter First](https://en.wikipedia.org/wiki/Presenter_First). My hope is to put a concrete face on this potentially confusing pattern; specifically, as it relates to iOS.
