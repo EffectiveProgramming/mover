@@ -1,0 +1,30 @@
+.pre-wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+	margin-top: 1em;
+    @extend %clearfix;
+}
+
+ul.links,
+ul.links li.link {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.links li.link {
+	background-color: #e1e1e1;
+	border-radius: 5px;
+	color: #f3f7f3;
+	float: left;
+	margin-right: 1em;
+	padding: 4px 8px;
+}
+
+ul.links li.link a:hover {
+	color: #cc3377;
+}

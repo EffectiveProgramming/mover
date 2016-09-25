@@ -1,7 +1,7 @@
 title: MoVeR | Effective Programming
 description: > # this means to ignore newlines until "baseurl:"
   MoVeR Documentation
-baseurl: "/mover"
+# baseurl: "/mover"
 url: "http://effectiveprogramming.github.io"
 twitter_username: LutherBaker
 github_username:  EffectiveProgramming
