@@ -1,0 +1,23 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <h2 class="footer-heading">{{ site.description }}</h2>
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+		<p>Another member of the <a href="http://www.effectiveprogramming.com/">Effective Programming</a> family of topics!</p>
+      </div>
+    </div>
+  </div>
+</footer>
